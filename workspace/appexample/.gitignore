@@ -11,3 +11,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Removendo o arquivo GemFile.lock - Verificar para que serve esse arquivo
+/Gemfile.lock
