@@ -46,10 +46,7 @@ group :development do
 
   # Servidor alternativo do rails + rapido - Video Aula 04
   gem 'thin'
-
-  # Obrigatorio para utilizar o mysql2 - Video Aula 08
-  gem 'mysql2'
-
+ 
   
 end
 
