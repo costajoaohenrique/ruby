@@ -1,0 +1,10 @@
+# aula_01
+# aula_02
+# aula_03
+# aula_04
+# aula_08
+-> Criar projeto com o banco de dados mysql
+$ rails new appexample --database=mysql
+
+-> Rodar o servidor em modo de produção
+$ rails s -e production
