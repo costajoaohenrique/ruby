@@ -15,3 +15,11 @@ $ rails s -e production
 $ rake db:create
 
 
+# aula_09
+-> Gerando o primeiro Scafold
+
+rails generate scaffold {NomeDoModeloNoSingular} {campos:tipo}
+
+EX=> rails generate scaffold customer nome:string email:string birthday:date obs:text
+
+
