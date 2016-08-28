@@ -1,9 +1,9 @@
-# aula_01
-# aula_02
-# aula_03
-# aula_04
+# Aula 01
+# Aula 02
+# Aula 03
+# Aula 04
 
-# aula_08
+# Aula 08
 -> Criar projeto com o banco de dados mysql
 $ rails new appexample --database=mysql
 
@@ -15,17 +15,20 @@ $ rails s -e production
 $ rake db:create
 
 
-# aula_09
--> Gerando o primeiro Scafold
+# Aula 09 
+
+##Gerando o primeiro Scafold
 
 rails generate scaffold {NomeDoModeloNoSingular} {campos:tipo}
 
 EX=> rails generate scaffold customer nome:string email:string birthday:date obs:text
 
 
-# aula_08
+# Aula 10
 
-Migrate -> Arquivo com o nome do modelo -> Define como a tabela vai ser no banco de dados
+## Migrate 
+
+-> Arquivo com o nome do modelo -> Define como a tabela vai ser no banco de dados
 -> Quando vc cria um modelo o rails por convencao cria uma chave primaria (ID) automaticamento
 -> Também cria o campo TIMESTAMP que é criado 2 campos na tabela (created_at, updated_at)
 
@@ -40,6 +43,16 @@ $ desc customers;
 -> Utilizando o Scaffold
 $ rails -s 
 http://localhost:3000/customers 
+
+
+# Aula 11
+
+
+## eRuby
+-> eRuby - Embeded Ruby - Ruby Imbutido no HTML
+-> .erb -> arquivos Html com Ruby imubutido
+
+
 
 
 
