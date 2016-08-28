@@ -52,6 +52,37 @@ http://localhost:3000/customers
 -> eRuby - Embeded Ruby - Ruby Imbutido no HTML
 -> .erb -> arquivos Html com Ruby imubutido
 
+# Aula 12
+
+## ActiveRecord
+-> Forma de arquitetura
+-> Só fazendo isso o Framework ActiveRecord faz a comunicação com o banco de dados
+
+## Rails Console
+$ rails console
+
+-> Vai levantar todas as classes do projeto para o irb
+
+
+# Aula 13
+
+##Controller
+->Criando o primeiro Controller isolado
+$ rails generate controller welcome
+
+##Rotas
+-> O arquvio config/routes.rb responsável para criar as rotas de navegação
+-> ['nomeDaAcaoHttp'] ['nomeDaRota'] => ['nomeDoController#nomeDaAcao']
+->EX: get 'inicio' => 'welcome#iniciar
+-> Definindo o Welcome page da aplicação no config/routes.rb
+-> root 'welcome#index'
+-> Verificando todas as rotas da aplicação
+http://localhost:3000/rails/info/routes
+
+##Helpers
+-> link_to -> Helper utilizado para criar um link no html para o caminho desejado
+<%= link_to "Cadastro de Clientes", "/customers" %> -> A forma menos correta e pouco usual
+<%= link_to "Cadastro de Clientes", customers_path %> -> A forma menos correta e pouco usual
 
 
 
